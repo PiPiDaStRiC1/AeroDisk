@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
+    <title>AeroDisk</title>
+  </head>
+  <body class="w-full">
+    <header class="fixed z-50 w-full flex justify-center items-center transition duration-200">
+      <nav class="w-[744px] bg-white">
+        <ul class="flex justify-between text-[var(--black-900)] p-4 px-10 border border-[var(--black-900)] rounded-b-lg">
+          <a href="#oportunities" class="hover:bg-[var(--blue-900)]">Возможности</a>
+          <a href="#tech-oportunities" class="hover:bg-[var(--blue-900)]">Технические преимущества</a>
+          <a href="#download" class="hover:bg-[var(--blue-900)]">Скачать</a>
+          <a href="#support" class="hover:bg-[var(--blue-900)]">Поддержать</a>
+        </ul>
+      </nav>
+    </header>
+    <main class="w-full flex flex-col justify-center items-center">
+      <section id="download" class="max-w-[1440px] mt-30">
+        <div class="flex justify-between w-[980px]">
+          <section class="max-w-[463px]">
+            <h1 class="pt-10"><strong class="text-[96px] font-normal">AeroDisk</strong></h1>
+            <div class="flex flex-col gap-7">
+              <p>облачное хранилище нового поколения для безопасного хранения, синхронизации и совместной работы с файлами.  Простое в использовании решение, сочетающее надёжность корпоративных систем с удобством персонального сервиса.</p>
+              <div class="flex flex-col gap-5">
+                <a href="#" class="max-w-[10rem] flex justify-center items-center text-white rounded-md bg-[var(--blue-500)] p-3">Скачать AeroDisk</a>
+                <p class="text-[var(--black-900)] text-xs max-w-[12rem]">Скачивая клиент, вы соглашаетесь с <a href="#" class="underline">пользовательским соглашением</a></p>
+              </div>
+            </div>
+          </section>
+          <img src="./src/assets/3D/Rectangle 38.png" alt="cloude"/>
+        </div>
+      </section>
+      <section id="oportunities" class="w-full overflow-x-hidden">
+        <h2 class="text-[32px] text-center mb-6 mt-15 font-bold">Всё для эффективной работы с данными</h2>
+        
+        <div class="relative swiper max-w-[1440px] mx-auto">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slide-content">
+                <img src="./src/assets/Carousel/image 25.png" alt="Командная работа без границ" class="relative top-[5rem]"/>
+                <h3 class="slide-title">Командная работа без границ</h3>
+                <p class="slide-text">Создавайте общие рабочие пространства с гибкими ролями (просмотр, редактирование, администрирование), оставляйте комментарии к файлам и отслеживайте версии документов.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-content">
+                <img src="./src/assets/Carousel/image 26.png" alt="Синхронизация между устройствами" class="relative top-[5rem]"/>
+                <h3 class="slide-title">Синхронизация между устройствами</h3>
+                <p class="slide-text">Автоматическая синхронизация файлов между всеми вашими устройствами — ПК, смартфонами, планшетами. Работайте с актуальными версиями документов везде, где бы вы ни находились.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-content">
+                <img src="./src/assets/Carousel/image 27.png" alt="Резервное копирование" class="relative top-[5rem]"/>
+                <h3 class="slide-title">Резервное копирование</h3>
+                <p class="slide-text">Ежедневные автоматические бэкапы с возможностью восстановления файлов за любой период до 365 дней. Защита от случайного удаления и программ-вымогателей.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-content">
+                <img src="./src/assets/Carousel/image 28.png" alt="Офлайн-доступ" class="relative top-[5rem]"/>
+                <h3 class="slide-title">Офлайн-доступ</h3>
+                <p class="slide-text">Помечайте важные файлы для доступа без интернета — изменения автоматически синхронизируются при восстановлении соединения.</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-content">
+                <img src="./src/assets/Carousel/image 33.png" alt="Безопасность превыше всего" class="relative top-[5rem]"/>
+                <h3 class="slide-title">Безопасность превыше всего</h3>
+                <ul class="slide-text">
+                  <li>— Двухфакторная аутентификация (2FA) и управление сессиями устройств</li>
+                  <li>— Аудит действий пользователей в режиме реального времени</li>
+                  <li>— Шифрование данных (по стандарту AES-256)</li>
+                  <li>— Контроль доступа на уровне папок и файлов</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="swiper-button-prev flex justify-center items-center bg-[var(--blue-500)] hover:bg-[var(--blue-600)] rounded-full p-4">
+            <img src="./src/assets/SVG/left-arrow.svg" alt="">
+          </div>
+          <div class="swiper-button-next flex justify-center items-center bg-[var(--blue-500)] hover:bg-[var(--blue-600)] rounded-full p-4">
+            <img src="./src/assets/SVG/right-arrow.svg" alt="">
+          </div>
+        </div>
+      </section>
+      <section id="tech-oportunities" class="flex flex-col gap-5">
+        <h2 class="text-[32px] text-center mb-6 font-bold">Надежная архитектура сервиса</h2>
+        <ul class="grid grid-cols-3 gap-5 place-items-center">
+          <li class="cursor-pointer group w-[367px] p-5 flex flex-col items-center justify-center gap-4 border-[2px] border-[var(--white-200)] hover:border-[var(--blue-400)] rounded-lg">
+            <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              width="73" 
+              height="65" 
+              viewBox="0 0 73 65" 
+              fill="none"
+              stroke="currentColor"
+              stroke-width="5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="text-[var(--white-200)] group-hover:text-[var(--blue-400)] transition-colors duration-300"
+            >
+              <path d="M59.1667 13.75H59.2044M47.8333 13.75H47.8711M59.1667 51.25H59.2044M47.8333 51.25H47.8711M13.8333 25H59.1667C62.6872 25 64.4472 25 65.836 24.4291C67.6871 23.6679 69.1581 22.2078 69.925 20.3701C70.5 18.9918 70.5 17.2445 70.5 13.75C70.5 10.2555 70.5 8.50818 69.925 7.12986C69.1581 5.29218 67.6871 3.83211 65.836 3.0709C64.4472 2.5 62.6872 2.5 59.1667 2.5H13.8333C10.3129 2.5 8.55268 2.5 7.16416 3.0709C5.31286 3.83211 3.84198 5.29218 3.07513 7.12986C2.5 8.50818 2.5 10.2555 2.5 13.75C2.5 17.2445 2.5 18.9918 3.07513 20.3701C3.84198 22.2078 5.31286 23.6679 7.16416 24.4291C8.55268 25 10.3129 25 13.8333 25ZM13.8333 62.5H59.1667C62.6872 62.5 64.4472 62.5 65.836 61.9292C67.6871 61.168 69.1581 59.7077 69.925 57.8702C70.5 56.4917 70.5 54.7446 70.5 51.25C70.5 47.7554 70.5 46.0083 69.925 44.6298C69.1581 42.7923 67.6871 41.332 65.836 40.5707C64.4472 40 62.6872 40 59.1667 40H13.8333C10.3129 40 8.55268 40 7.16416 40.5707C5.31286 41.332 3.84198 42.7923 3.07513 44.6298C2.5 46.0083 2.5 47.7554 2.5 51.25C2.5 54.7446 2.5 56.4917 3.07513 57.8702C3.84198 59.7077 5.31286 61.168 7.16416 61.9292C8.55268 62.5 10.3129 62.5 13.8333 62.5Z"/>
+            </svg>
+            <h3 class="text-center">Геораспределённые дата-центры с репликацией данных</h3>
+          </li>
+          <li class="cursor-pointer group w-[367px] p-5 flex flex-col items-center justify-center gap-4 border-[2px] border-[var(--white-200)] hover:border-[var(--blue-400)] rounded-lg">
+            <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              width="91" 
+              height="65" 
+              viewBox="0 0 91 65" 
+              fill="none"
+              stroke="currentColor"
+              stroke-width="5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="text-[var(--white-200)] group-hover:text-[var(--blue-400)] transition-colors duration-300"
+            >
+              <path d="M32.4823 58.4375C31.3814 59.4648 30.5293 60.1524 29.6586 60.655C25.3962 63.115 20.1447 63.115 15.8823 60.655C14.3116 59.7485 12.8018 58.2392 9.78206 55.2211C6.76235 52.2025 5.25247 50.6932 4.34567 49.1228C1.88478 44.8621 1.88478 39.6127 4.34567 35.352C5.25247 33.7821 6.76235 32.2728 9.78206 29.2542L22.7704 16.2709C25.7902 13.2524 27.3 11.7431 28.8707 10.8366C33.1331 8.37671 38.3846 8.37671 42.647 10.8366C44.2175 11.7431 45.7274 13.2524 48.7471 16.2709C51.7669 19.2894 53.2768 20.7987 54.1837 22.3688C56.6446 26.6295 56.6446 31.8789 54.1837 36.1396C53.6809 37.01 52.993 37.8619 51.9648 38.9622M39.0353 26.0378C38.0072 27.1381 37.3193 27.99 36.8164 28.8604C34.3557 33.1211 34.3557 38.3705 36.8164 42.6312C37.7234 44.2016 39.2332 45.7109 42.253 48.729C45.2728 51.7476 46.7826 53.2569 48.3531 54.1634C52.6155 56.6234 57.867 56.6234 62.1294 54.1634C63.7003 53.2569 65.2102 51.7476 68.23 48.729L81.2182 35.7458C84.238 32.7272 85.7479 31.2179 86.6543 29.6481C89.1152 25.3873 89.1152 20.1378 86.6543 15.8771C85.7479 14.307 84.238 12.7978 81.2182 9.77922C78.1985 6.76069 76.6886 5.25145 75.1181 4.34496C70.8553 1.88501 65.6042 1.88501 61.3418 4.34496C60.4707 4.8475 59.6189 5.53526 58.5177 6.56276"/>
+            </svg>
+            <h3 class="text-center">API для интеграции с корпоративными системами (1С, МойОфис, Телеграм)</h3>
+          </li>
+          <li class="cursor-pointer group w-[367px] p-5 flex flex-col items-center justify-center gap-4 border-[2px] border-[var(--white-200)] hover:border-[var(--blue-400)] rounded-lg">
+            <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              width="65" 
+              height="65" 
+              viewBox="0 0 65 65" 
+              fill="none"
+              stroke="currentColor"
+              stroke-width="5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="text-[var(--white-200)] group-hover:text-[var(--blue-400)] transition-colors duration-300"
+            >
+              <path d="M50.5 25.8333L62.5 32.5L50.5 39.1667M50.5 25.8333L32.5 35.8333L14.5 25.8333M50.5 25.8333L62.5 19.1667L32.5 2.5L2.5 19.1667L14.5 25.8333M50.5 39.1667L62.5 45.8333L32.5 62.5L2.5 45.8333L14.5 39.1667M50.5 39.1667L32.5 49.1667L14.5 39.1667M14.5 25.8333L2.5 32.5L14.5 39.1667"/>
+            </svg>
+            <h3 class="text-center">Экономия трафика за счёт дедупликации и сжатия</h3>
+          </li>
+          <li class="col-span-3 flex gap-5">
+            <div class="cursor-pointer group w-[367px] p-5 flex flex-col items-center justify-center gap-4 border-[2px] border-[var(--white-200)] hover:border-[var(--blue-400)] rounded-lg">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="58"
+                height="65"
+                viewBox="0 0 58 65"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="text-[var(--white-200)] group-hover:text-[var(--blue-400)] transition-colors duration-300"
+              >
+                <path d="M44.1845 12.5C41.6286 6.61367 35.7916 2.5 29 2.5C19.8528 2.5 12.4375 9.96193 12.4375 19.1667V25.9293M12.4375 25.9293C13.9991 25.8333 15.9242 25.8333 18.4 25.8333H39.6C45.1657 25.8333 47.9482 25.8333 50.0741 26.9233C51.944 27.882 53.4641 29.4117 54.4168 31.2933C55.5 33.4327 55.5 36.2327 55.5 41.8333V46.5C55.5 52.1007 55.5 54.9007 54.4168 57.04C53.4641 58.9217 51.944 60.4513 50.0741 61.41C47.9482 62.5 45.1657 62.5 39.6 62.5H18.4C12.8345 62.5 10.0517 62.5 7.92597 61.41C6.0561 60.4513 4.53586 58.9217 3.58312 57.04C2.5 54.9007 2.5 52.1007 2.5 46.5V41.8333C2.5 36.2327 2.5 33.4327 3.58312 31.2933C4.53586 29.4117 6.0561 27.882 7.92597 26.9233C9.10609 26.3183 10.4887 26.049 12.4375 25.9293Z"/>
+              </svg>
+              <h3 class="text-center">Высокая доступность (99.99% uptime)</h3>
+            </div>
+            <div class="cursor-pointer group w-[367px] p-5 flex flex-col items-center justify-center gap-4 border-[2px] border-[var(--white-200)] hover:border-[var(--blue-400)] rounded-lg">
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="65" 
+                height="65" 
+                viewBox="0 0 65 65" 
+                fill="none"
+                stroke="currentColor"
+                stroke-width="5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="text-[var(--white-200)] group-hover:text-[var(--blue-400)] transition-colors duration-300"
+              >
+                <path d="M32.5 49.1667V62.5M19.1667 62.5H45.8333M13.1667 49.1667H51.8333C55.567 49.1667 57.434 49.1667 58.86 48.44C60.1143 47.801 61.1343 46.781 61.7733 45.5267C62.5 44.1007 62.5 42.2337 62.5 38.5V13.1667C62.5 9.433 62.5 7.56613 61.7733 6.14007C61.1343 4.88563 60.1143 3.86577 58.86 3.22663C57.434 2.5 55.567 2.5 51.8333 2.5H13.1667C9.433 2.5 7.56613 2.5 6.14007 3.22663C4.88563 3.86577 3.86577 4.88563 3.22663 6.14007C2.5 7.56613 2.5 9.43297 2.5 13.1667V38.5C2.5 42.2337 2.5 44.1007 3.22663 45.5267C3.86577 46.781 4.88563 47.801 6.14007 48.44C7.56613 49.1667 9.43297 49.1667 13.1667 49.1667Z"/>
+              </svg>
+              <h3 class="text-center">Поддержка всех платформ: Windows</h3>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="support" class="max-w-[1440px] mt-[4rem]">
+        <div class="flex justify-between items-center w-[980px]">
+          <img src="./src/assets/3D/Rectangle 40.png" alt="cloude"/>
+          <section class="max-w-[463px] flex flex-col gap-7">
+            <div class="flex flex-col gap-5">
+              <p>Мы сделали облачное хранилище доступным без подписок и скрытых платежей. Если вам нравится 
+сервис — поддержите развитие проекта добровольным донатом. Даже 100 ₽ помогут нам становиться лучше.
+Спасибо, что вы с нами!</p>
+              <div class="flex flex-col gap-3">
+                <p>Выберите способ оплаты:</p>
+                <div class="flex gap-5"> 
+                  <a href="" class="flex w-[14rem] hover:text-white hover:bg-[var(--black-850)] transition duration-300 ease-in-out justify-center items-center gap-2 p-4 border border-[var(--black-900)] rounded-md">
+                    <img src="./src/assets/SVG/сбп.svg" alt="">
+                    CБП
+                  </a>
+                  <a href="" class="flex w-[14rem] hover:text-white hover:bg-[var(--black-850)] transition duration-300 ease-in-out justify-center items-center gap-2 p-4 border border-[var(--black-900)] rounded-md">
+                    <img src="./src/assets/SVG/paypal.svg" alt="">
+                    PayPal
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+    <footer class="w-full flex justify-center items-center bg-[var(--black-900)] text-white p-4 mt-10">
+      <div class="w-[1140px] flex justify-between items-center">
+        <ul class="flex gap-10">
+          <li>Состояние системы</li>
+          <li>Политика конфиденциальности</li>
+          <li>Условия и положения</li>
+        </ul>
+        <p>© 2026 Disk. Все права защищены.</p>
+      </div>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

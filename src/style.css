@@ -1,0 +1,127 @@
+@import 'tailwindcss';
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --white: #F8FAFC;
+    --white-200: #E2E8F0;
+    --white-400: #CBD5E1;
+
+    --black-900: #0F172A;
+    --black-850: #334155;
+    --black-800: #334155;
+    --black-700: #64748B;
+
+    --blue-900: #2563EB1A;
+    --blue-600: #1D4ED8;
+    --blue-500: #2563EB;
+    --blue-400: #A1BEE6;
+
+    --green-400: #22C55E;
+}
+
+.swiper {
+  padding: 40px 0 80px;
+  height: 710px;
+}
+
+.swiper-slide {
+  width: 600px;
+  transition: all 0.3s ease;
+}
+
+.swiper-slide .slide-text {
+  display: none;
+}
+
+.swiper-slide .slide-title {
+  display: none;
+}
+
+.swiper-slide-active .slide-content {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.swiper-slide-active .slide-text {
+  display: block;
+}
+
+.swiper-slide-active .slide-title {
+  display: block;
+}
+
+.swiper-slide-active img {
+    position: static;
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 0.5rem;
+  transform: scale(0.7);
+  opacity: 0.5;
+  transition: all 0.5s ease;
+}
+
+.slide-content img {
+  height: auto;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.slide-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--black-900);
+  text-align: center;
+}
+
+.slide-text {
+  font-size: 1rem;
+  color: var(--black-700);
+  text-align: center;
+}
+
+.swiper-button-prev {
+    left: 20rem!important;
+    transform: translateX(-50%)!important;
+    top: 15rem!important;
+}
+
+.swiper-button-next {
+    right: 20rem!important;
+    transform: translateX(50%)!important;
+    top: 15rem!important;
+}
+
+.swiper-pagination-bullet {
+  background: var(--black-700);
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--blue-500);
+}
+
+.swiper-navigation-icon {
+    display: none;
+}
+
+
+.header-hidden {
+  transform: translateY(-100%) scale(0.96);
+  opacity: 0.85;
+  filter: blur(2px);
+}
+
+.header-visible {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+  filter: blur(0);
+}
