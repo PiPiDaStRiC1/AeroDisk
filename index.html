@@ -3,17 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AeroDisk - modern cloud storage solution for secure file management">
     <link rel="stylesheet" href="./src/style.css">
     <title>AeroDisk</title>
   </head>
   <body class="w-full">
-    <header class="fixed z-50 w-full flex justify-center items-center transition duration-200">
+    <header class="fixed z-50 w-full flex justify-center items-center transition duration-100">
       <nav class="w-[744px] bg-white">
-        <ul class="flex justify-between text-[var(--black-900)] p-4 px-10 border border-[var(--black-900)] rounded-b-lg">
-          <a href="#oportunities" class="hover:bg-[var(--blue-900)]">Возможности</a>
-          <a href="#tech-oportunities" class="hover:bg-[var(--blue-900)]">Технические преимущества</a>
-          <a href="#download" class="hover:bg-[var(--blue-900)]">Скачать</a>
-          <a href="#support" class="hover:bg-[var(--blue-900)]">Поддержать</a>
+        <ul class="flex justify-between items-center text-[var(--black-900)] p-[0.8rem] px-10 border border-[var(--black-900)] rounded-b-lg">
+          <a href="#oportunities" class="hover:bg-[var(--blue-900)] hover:rounded-md transition-colors p-1 duration-300">Возможности</a>
+          <a href="#tech-oportunities" class="hover:bg-[var(--blue-900)] hover:rounded-md p-1 transition-colors duration-300">Технические преимущества</a>
+          <a href="#download" class="hover:bg-[var(--blue-900)] hover:rounded-md p-1 transition-colors duration-300">Скачать</a>
+          <a href="#support" class="hover:bg-[var(--blue-900)] hover:rounded-md p-1 transition-colors duration-300">Поддержать</a>
         </ul>
       </nav>
     </header>
@@ -25,7 +26,7 @@
             <div class="flex flex-col gap-7">
               <p>облачное хранилище нового поколения для безопасного хранения, синхронизации и совместной работы с файлами.  Простое в использовании решение, сочетающее надёжность корпоративных систем с удобством персонального сервиса.</p>
               <div class="flex flex-col gap-5">
-                <a href="#" class="max-w-[10rem] flex justify-center items-center text-white rounded-md bg-[var(--blue-500)] p-3">Скачать AeroDisk</a>
+                <a href="#" download="AeroDiskSetup.exe" class="max-w-[10rem] flex justify-center items-center text-white rounded-md bg-[var(--blue-500)] p-3">Скачать AeroDisk</a>
                 <p class="text-[var(--black-900)] text-xs max-w-[12rem]">Скачивая клиент, вы соглашаетесь с <a href="#" class="underline">пользовательским соглашением</a></p>
               </div>
             </div>
@@ -89,9 +90,9 @@
         </div>
       </section>
       <section id="tech-oportunities" class="flex flex-col gap-5">
-        <h2 class="text-[32px] text-center mb-6 font-bold">Надежная архитектура сервиса</h2>
+        <h2 class="text-[32px] text-center mb-6 font-bold">Надёжная архитектура сервиса</h2>
         <ul class="grid grid-cols-3 gap-5 place-items-center">
-          <li class="cursor-pointer group w-[367px] p-5 flex flex-col items-center justify-center gap-4 border-[2px] border-[var(--white-200)] hover:border-[var(--blue-400)] rounded-lg">
+          <li class="cursor-pointer group hover:shadow-lg w-[367px] p-5 flex flex-col items-center justify-center gap-4 border-[2px] border-[var(--white-200)] hover:border-[var(--blue-400)] rounded-lg">
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="73" 
@@ -108,7 +109,7 @@
             </svg>
             <h3 class="text-center">Геораспределённые дата-центры с репликацией данных</h3>
           </li>
-          <li class="cursor-pointer group w-[367px] p-5 flex flex-col items-center justify-center gap-4 border-[2px] border-[var(--white-200)] hover:border-[var(--blue-400)] rounded-lg">
+          <li class="cursor-pointer group hover:shadow-lg w-[367px] p-5 flex flex-col items-center justify-center gap-4 border-[2px] border-[var(--white-200)] hover:border-[var(--blue-400)] rounded-lg">
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="91" 
@@ -125,7 +126,7 @@
             </svg>
             <h3 class="text-center">API для интеграции с корпоративными системами (1С, МойОфис, Телеграм)</h3>
           </li>
-          <li class="cursor-pointer group w-[367px] p-5 flex flex-col items-center justify-center gap-4 border-[2px] border-[var(--white-200)] hover:border-[var(--blue-400)] rounded-lg">
+          <li class="cursor-pointer group hover:shadow-lg w-[367px] p-5 flex flex-col items-center justify-center gap-4 border-[2px] border-[var(--white-200)] hover:border-[var(--blue-400)] rounded-lg">
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="65" 
@@ -143,7 +144,7 @@
             <h3 class="text-center">Экономия трафика за счёт дедупликации и сжатия</h3>
           </li>
           <li class="col-span-3 flex gap-5">
-            <div class="cursor-pointer group w-[367px] p-5 flex flex-col items-center justify-center gap-4 border-[2px] border-[var(--white-200)] hover:border-[var(--blue-400)] rounded-lg">
+            <div class="cursor-pointer group hover:shadow-lg w-[367px] p-5 flex flex-col items-center justify-center gap-4 border-[2px] border-[var(--white-200)] hover:border-[var(--blue-400)] rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="58"
@@ -160,7 +161,7 @@
               </svg>
               <h3 class="text-center">Высокая доступность (99.99% uptime)</h3>
             </div>
-            <div class="cursor-pointer group w-[367px] p-5 flex flex-col items-center justify-center gap-4 border-[2px] border-[var(--white-200)] hover:border-[var(--blue-400)] rounded-lg">
+            <div class="cursor-pointer group hover:shadow-lg w-[367px] p-5 flex flex-col items-center justify-center gap-4 border-[2px] border-[var(--white-200)] hover:border-[var(--blue-400)] rounded-lg">
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 width="65" 
@@ -191,12 +192,12 @@
               <div class="flex flex-col gap-3">
                 <p>Выберите способ оплаты:</p>
                 <div class="flex gap-5"> 
-                  <a href="" class="flex w-[14rem] hover:text-white hover:bg-[var(--black-850)] transition duration-300 ease-in-out justify-center items-center gap-2 p-4 border border-[var(--black-900)] rounded-md">
-                    <img src="./src/assets/SVG/сбп.svg" alt="">
+                  <a href="https://ru.pinterest.com/pin/1142084786776791227/" class="flex w-[14rem] hover:text-white hover:bg-[var(--black-850)] transition duration-300 ease-in-out justify-center items-center gap-2 p-4 border border-[var(--black-900)] rounded-md">
+                    <img src="./src/assets/SVG/сбп.svg" alt="СБП">
                     CБП
                   </a>
-                  <a href="" class="flex w-[14rem] hover:text-white hover:bg-[var(--black-850)] transition duration-300 ease-in-out justify-center items-center gap-2 p-4 border border-[var(--black-900)] rounded-md">
-                    <img src="./src/assets/SVG/paypal.svg" alt="">
+                  <a href="https://ru.pinterest.com/pin/298152437851953069/" class="flex w-[14rem] hover:text-white hover:bg-[var(--black-850)] transition duration-300 ease-in-out justify-center items-center gap-2 p-4 border border-[var(--black-900)] rounded-md">
+                    <img src="./src/assets/SVG/paypal.svg" alt="PayPal">
                     PayPal
                   </a>
                 </div>

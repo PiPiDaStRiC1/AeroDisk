@@ -11,6 +11,7 @@ const swiper = new Swiper('.swiper', {
   spaceBetween: 30,
   loop: true,
   grabCursor: true,
+  speed: 800,
 
   navigation: {
     nextEl: '.swiper-button-next',
@@ -33,5 +34,5 @@ document.addEventListener('scroll', () => {
   scrollTimer = setTimeout(() => {
     header.classList.remove('header-hidden');
     header.classList.add('header-visible');
-  }, 200);
+  }, 100);
 });
